@@ -5,7 +5,7 @@
 // This example shows how to deserialize a JSON document with ArduinoJson.
 
 #include <iostream>
-#include "ArduinoJson.h"
+#include <ArduinoJson/ArduinoJson.h>
 
 int main() {
   // Allocate the JSON document

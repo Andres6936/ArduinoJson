@@ -53,4 +53,4 @@
 #define CAPACITY
 
 // catch.hpp mutes several warnings, this file also allows to detect them
-#include "ArduinoJson.h"
+#include <ArduinoJson/ArduinoJson.h>
