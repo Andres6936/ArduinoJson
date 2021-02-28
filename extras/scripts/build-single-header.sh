@@ -60,7 +60,7 @@ simplify_namespaces() {
 
 cd $(dirname $0)/../..
 INCLUDED=()
-process src/ArduinoJson.h true > ../ArduinoJson-$TAG.h
+process Include/ArduinoJson.h true > ../ArduinoJson-$TAG.h
 simplify_namespaces ../ArduinoJson-$TAG.h
 g++ -x c++ -c -o ../smoketest.o - <<END
 #include "../ArduinoJson-$TAG.h"
@@ -71,7 +71,7 @@ int main() {
 END
 
 INCLUDED=()
-process src/ArduinoJson.hpp true > ../ArduinoJson-$TAG.hpp
+process Include/ArduinoJson.hpp true > ../ArduinoJson-$TAG.hpp
 simplify_namespaces ../ArduinoJson-$TAG.hpp
 g++ -x c++ -c -o ../smoketest.o - <<END
 #include "../ArduinoJson-$TAG.hpp"

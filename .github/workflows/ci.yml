@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Format
-        run: find src/ extras/ -name '*.[ch]pp' | xargs clang-format -i --verbose --style=file
+        run: find Include/ extras/ -name '*.[ch]pp' | xargs clang-format -i --verbose --style=file
       - name: Diff
         run: git diff --exit-code
 
