@@ -6,7 +6,6 @@ on: [push, pull_request]
 jobs:
   gcc:
     name: GCC
-    needs: clang-format
     runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
