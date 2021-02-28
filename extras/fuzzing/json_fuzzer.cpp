@@ -1,4 +1,4 @@
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
   DynamicJsonDocument doc(4096);

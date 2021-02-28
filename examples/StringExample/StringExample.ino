@@ -10,7 +10,7 @@
 //
 // https://arduinojson.org/v6/example/string/
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 void setup() {
   DynamicJsonDocument doc(1024);

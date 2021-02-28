@@ -15,7 +15,7 @@
 //
 // https://arduinojson.org/v6/example/http-server/
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 #include <Ethernet.h>
 #include <SPI.h>
 

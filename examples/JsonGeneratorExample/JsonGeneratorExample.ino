@@ -6,7 +6,7 @@
 //
 // https://arduinojson.org/v6/example/generator/
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 void setup() {
   // Initialize Serial port

@@ -6,7 +6,7 @@
 #define ARDUINOJSON_ENABLE_NAN 1
 #define ARDUINOJSON_ENABLE_INFINITY 1
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 #include <limits.h>
 #include <catch.hpp>
 

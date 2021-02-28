@@ -7,7 +7,7 @@
 //
 // https://arduinojson.org/v6/example/msgpack-parser/
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 void setup() {
   // Initialize serial port

@@ -2,7 +2,7 @@
 // Copyright Benoit Blanchon 2014-2021
 // MIT License
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 // a function should not be able to get a JsonDocument by value
 void f(JsonDocument) {}

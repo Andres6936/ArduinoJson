@@ -7,7 +7,7 @@
 #define ARDUINOJSON_ENABLE_ARDUINO_STRING 1
 #define ARDUINOJSON_ENABLE_PROGMEM 1
 #define ARDUINOJSON_ENABLE_STRING_DEDUPLICATION 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 

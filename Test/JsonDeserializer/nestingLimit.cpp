@@ -2,7 +2,7 @@
 // Copyright Benoit Blanchon 2014-2021
 // MIT License
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 #include <catch.hpp>
 
 #define SHOULD_WORK(expression) REQUIRE(DeserializationError::Ok == expression);

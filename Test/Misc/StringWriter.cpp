@@ -4,7 +4,7 @@
 
 #define ARDUINOJSON_ENABLE_ARDUINO_STRING 1
 #define ARDUINOJSON_STRING_BUFFER_SIZE 5
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 #include <catch.hpp>
 #include "custom_string.hpp"
 

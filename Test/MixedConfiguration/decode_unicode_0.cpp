@@ -1,5 +1,5 @@
 #define ARDUINOJSON_DECODE_UNICODE 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 

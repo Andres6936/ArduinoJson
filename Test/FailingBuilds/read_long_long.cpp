@@ -3,7 +3,7 @@
 // MIT License
 
 #define ARDUINOJSON_USE_LONG_LONG 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #if defined(__SIZEOF_LONG__) && __SIZEOF_LONG__ >= 8
 #error This test requires sizeof(long) < 8

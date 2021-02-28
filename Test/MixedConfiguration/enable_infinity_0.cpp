@@ -1,5 +1,5 @@
 #define ARDUINOJSON_ENABLE_INFINITY 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 #include <limits>

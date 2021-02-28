@@ -1,6 +1,6 @@
 #define ARDUINOJSON_NAMESPACE ArduinoJson_NoAlignment
 #define ARDUINOJSON_ENABLE_ALIGNMENT 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 

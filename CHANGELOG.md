@@ -207,7 +207,7 @@ v6.14.0 (2020-01-16)
 >
 > ```c++
 > #define ARDUINOJSON_ENABLE_COMMENTS 1
-> #include <ArduinoJson.h>
+> #include <ArduinoJson/ArduinoJson.h>
 > ```
 
 v6.13.0 (2019-11-01)
@@ -288,7 +288,7 @@ v6.11.0 (2019-05-26)
 > ```c++
 > #define ARDUINOJSON_ENABLE_NAN 1
 > #define ARDUINOJSON_ENABLE_INFINITY 1
-> #include <ArduinoJson.h>
+> #include <ArduinoJson/ArduinoJson.h>
 > ```
 > 
 > #### The "or" operator

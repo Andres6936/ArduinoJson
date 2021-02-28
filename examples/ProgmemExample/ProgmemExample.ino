@@ -11,7 +11,7 @@
 //
 // https://arduinojson.org/v6/example/progmem/
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 void setup() {
 #ifdef PROGMEM  // <- check that Flash strings are supported

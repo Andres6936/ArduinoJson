@@ -1,5 +1,5 @@
 #define ARDUINOJSON_ENABLE_ALIGNMENT 1
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 

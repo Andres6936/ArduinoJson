@@ -3,7 +3,7 @@
 // MIT License
 
 #define ARDUINOJSON_ENABLE_COMMENTS 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 

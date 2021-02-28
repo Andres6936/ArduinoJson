@@ -1,5 +1,5 @@
 #define ARDUINOJSON_USE_DOUBLE 0
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 
 #include <catch.hpp>
 

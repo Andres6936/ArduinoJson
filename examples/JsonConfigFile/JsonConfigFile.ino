@@ -19,7 +19,7 @@
 //
 // https://arduinojson.org/v6/example/config/
 
-#include <ArduinoJson.h>
+#include <ArduinoJson/ArduinoJson.h>
 #include <SD.h>
 #include <SPI.h>
 
